@@ -14,7 +14,7 @@ body {
 }
 
 .flex-container {
-  /* display: flex; */
+  display: flex;
   background: #fff;
 }
 
@@ -25,12 +25,17 @@ body {
 
 .one {
   background: red;
+  flex-grow: 4;
 }
 
 .two {
   background: blue;
+  flex-grow: 4;
 }
 
 .three {
   background: green;
+  flex-grow: 4;
 }
+
+/* git push https://github.com/tahsinAmin/CSS-Flexbox-Tutorial.git master */
