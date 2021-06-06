@@ -9,33 +9,41 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .flex-container {
   display: flex;
   background: #fff;
+  flex-wrap: wrap;
+  flex-flow: row;
+  height: 600px;
+  justify-content: space-around;
 }
 
 .box {
   height: 100px;
-  min-width: 100px;
+  flex: 0 0 100px;
+  background: #ccc;
+  text-align: center;
+  align-items: center;
 }
 
 .one {
-  background: red;
-  flex-grow: 4;
+  order: 2;
 }
 
 .two {
-  background: blue;
-  flex-grow: 4;
+  order: 4;
 }
 
 .three {
-  background: green;
-  flex-grow: 4;
+  order: 3;
+}
+
+.four {
+  order: 1;
 }
 
 /* git push https://github.com/tahsinAmin/CSS-Flexbox-Tutorial.git master */
